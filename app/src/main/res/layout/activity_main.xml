@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.codenames.codenames.GameActivity"
-    tools:layout_editor_absoluteY="81dp"
-    tools:layout_editor_absoluteX="0dp">
+    tools:context="com.codenames.codenames.GameActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
-        app:srcCompat="@drawable/settings_icon"
+        android:src="@drawable/settings_icon"
         tools:layout_constraintTop_creator="1"
         android:layout_marginStart="3dp"
         android:layout_marginTop="1dp"
@@ -21,4 +19,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="15dp" />
+
 </android.support.constraint.ConstraintLayout>
